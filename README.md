@@ -6,6 +6,11 @@
 小红书搜索结果采集（本地 CLI，Playwright 驱动浏览器）
 
 安装（Homebrew Python 需用虚拟环境，勿直接用系统 pip3）:
+```python
+"""
+小红书搜索结果采集（本地 CLI，Playwright 驱动浏览器）
+
+安装（Homebrew Python 需用虚拟环境，勿直接用系统 pip3）:
   cd 本仓库目录
   python3 -m venv .venv
   source .venv/bin/activate          # Windows: .venv\\Scripts\\activate
@@ -18,4 +23,5 @@
   python xiaohongshu.py "关键词" -o out.json
   python xiaohongshu.py "关键词" --filter-keywords "openclaw,openclaw.ai" --max-posts 20
   python xiaohongshu.py "关键词" --headless   # 需已在本机 profile 里登录过
-
+"""
+```
